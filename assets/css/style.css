@@ -1,7 +1,12 @@
 :root {
     --main-color: #345E98;
     --borader-round: 10%;
+    --minimum-size: 300px;
 
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 
@@ -9,20 +14,37 @@
 
 body {
     margin: 0%;
+    min-width: var(--minimum-size);
 }
 
 footer {
     background-color: var(--main-color);
+    min-width: var(--minimum-size);
 }
 
 header {
-    background-color: var(--main-color)
+    background-color: var(--main-color);
+    min-width: var(--minimum-size);
 }
 
+ul {
+    list-style-type: none;
+}
 
 /* Classes */
 
+.nav_topic {
+    display: inline-block;
+    text-align: right;
+}
 
+.project_small {
+    min-width: 290px;
+    height: auto;
+    border-style:solid;
+    margin: 5px 2px 5px 2px;
+    padding-left: 7px;
+}
 
 
 /* ID's */
@@ -35,19 +57,38 @@ header {
     width: 100%;
 }
 
-#navbar {
+#my_name {
+    font-size: 200%;
+    max-height: 100%;
+    max-width: 700px;
+}
 
+#navbar {
+    
+    display: inline-block;
 }
 
 #profile_pic {
-    max-height: 300px;
+    max-height: 200px;
     max-width: 100%;
     border-radius: var(--borader-round);
     border-style: dotted;
+    position: relative;
+
+    
 }
 
 #projects {
-
+    display: flex;
+    flex-wrap: wrap;
+    min-width: var(--minimum-size);
+    padding: 0;
+    
+    
 }
 
 /* Media */
+
+@media screen {
+    
+}
