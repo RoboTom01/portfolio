@@ -87,6 +87,11 @@ ul {
     
 }
 
+#project_big {
+    border-style:solid;
+    height: 400px;
+}
+
 /* Media */
 
 @media screen {
