@@ -58,6 +58,13 @@ ul {
     text-align: right;
 }
 
+.project-text {
+    border-style: groove;
+    padding: 7px;
+    margin: 5px;
+    background-color: antiquewhite;
+}
+
 .project_small {
     min-width: 257px;
     height: 80px;
