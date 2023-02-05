@@ -13,7 +13,7 @@
 
   <!--Header/navbar-->
     <header>
-        bar
+        
         <!--nav-->
         <ul id="navbar">
           <li class="nav_topic">
@@ -35,41 +35,59 @@
         
     </div>
 
-  <!--About Me, pic & name-->
-    <div id="about_me">
-        <h1 id="my_name">Thomas Waite</h1>
-        <img id="profile_pic" src="../module_2/assets/images/profilepic.jpg" alt="me">
+  <!-- Columns -->
+  <!-- <div class="row">
+       <div class="column"> -->
+
+    <!--About Me, pic & name-->
+    <div class="row">
+      <div class="column-left">
+          <h1 id="my_name">Thomas Waite</h1>
+      </div>
+      <div class="column-right"> 
+          <img id="profile_pic" src="../module_2/assets/images/profilepic.jpg" alt="me">
+      </div>
     </div>
 
-  <!--Projects-->
+    <!--Projects-->
     <div>
-      <h3>Projects</h3>
-
-      <!--1st large project-->
-      <div>
-        <p id="project_big">
-         <a href="https://newguyengithub.github.io/Recovery-Radar/">Recovery Radar</a>
-        </p>
+      <div class="row">
+        <div class="column-left">
+          <h3>Projects</h3>
+        </div>
+        <!--1st large project-->
+        <div id="project_big" class="column-right">
+          
+          <p>
+          <a href="https://newguyengithub.github.io/Recovery-Radar/">Recovery Radar</a>
+          </p>
+          
+        </div>
       </div>
-
-      <!--four project to be smaller and change orientation on smaller page-->
-      <div>
-        <ul id="projects">
-          <li class="project_small">
-            LED Wall
-          </li>
-          <li class="project_small">
-            Calculator
-          </li>
-          <li class="project_small">
-            Pastel Puzzles
-          </li>
-          <li class="project_small">
-            Run Buddy
-          </li>
-        </ul>
+        <!--four project to be smaller and change orientation on smaller page-->
+      <div class="row">
+        <div class="column-left"></div>
+        <div class="column-right">
+          <div>
+            <ul id="projects">
+              <li class="project_small">
+                LED Wall
+              </li>
+              <li class="project_small">
+                Calculator
+              </li>
+              <li class="project_small">
+                Pastel Puzzles
+              </li>
+              <li class="project_small">
+                Run Buddy
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
+
 
     <!--Footer/contact me-->
     <footer>
