@@ -31,8 +31,12 @@ header {
     justify-content: flex-end;
 }
 
-h3 {
-    size: 40px;
+h1 {
+    padding-left: 15px;
+}
+
+h2 {
+    padding-left: 15px;
 }
 
 ul {
@@ -49,9 +53,15 @@ ul {
     /* box-shadow: 5px 0px 0px 0px black; */
   }
 
-.column-right {
-    flex: 80%;
+.column-center {
+    flex: 60%;
+    /* margin-right: 10px; */
   }
+
+.column-right {
+    flex: 20%;
+    min-width: 100px;
+}
 
 /* .left_margin {
     margin-left: 50px;
@@ -76,6 +86,7 @@ ul {
     padding: 7px;
     margin: 5px;
     width: fit-content;
+    height: auto;
     background-color: antiquewhite;
 }
 
@@ -124,35 +135,37 @@ ul {
 }
 
 #navbar {
-    
+    padding-right: 50px;
     display: inline-block;
 }
 
 #profile_pic {
-    max-height: 200px;
-    max-width: 100%;
+    height: 200px;
+    width: auto;
     border-radius: var(--borader-round);
-    border-style: dotted;
+    border-style: groove;
+    border-color: black;
     position: relative;
-    
-    display: flex; 
-    justify-content: flex-end;
+    right: 150px;
+    bottom: 50px;
+    /* display: flex; 
+    justify-content: flex-end; */
     
 }
 
 #projects {
     display: flex;
     flex-wrap: wrap;
-    min-width: var(--minimum-size);
+    min-width: 300px;
     padding: 0;
-    
-    
+      
 }
 
 #project_big {
     border-style: solid;
     height: 250px;
     width: auto;
+    /* max-width: 1500px; */
     margin: 15px 50px 15px 0px;
     background-image: url("https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
     background-size: cover;
