@@ -1,5 +1,5 @@
 :root {
-    --main-color: #345E98;
+    --main-color: #B5D5C5;
     --borader-round: 10%;
     --minimum-size: 720px;
 
@@ -16,6 +16,7 @@ body {
     font-family: sans-serif;
     margin: 0%;
     min-width: var(--minimum-size);
+    background-color: #F5F5DC;
 }
 
 footer {
@@ -42,7 +43,10 @@ ul {
 
 .column-left {
     flex: 20%;
+    width: auto;
     min-width: 146px;
+    height: auto;
+    /* box-shadow: 5px 0px 0px 0px black; */
   }
 
 .column-right {
@@ -53,6 +57,15 @@ ul {
     margin-left: 50px;
 } */
 
+.link {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
 .nav_topic {
     display: inline-block;
     text-align: right;
@@ -62,15 +75,20 @@ ul {
     border-style: groove;
     padding: 7px;
     margin: 5px;
+    width: fit-content;
     background-color: antiquewhite;
 }
 
 .project_small {
-    min-width: 257px;
-    height: 80px;
+    /* min-width: 257px;
+    max-width: 750px; */
+    width: 500px;
+    height: 120px;
     border-style:solid;
-    margin: 5px 15px 5px 0px;
+    margin: 15px 15px 15px 0px;
     padding-left: 7px;
+    cursor: pointer;
+    position: relative;
 }
 
 .row {
@@ -83,6 +101,12 @@ ul {
 #about_me {
     display: flex;
     flex-wrap: wrap;
+}
+
+#background_field {
+    height: 400px;
+    background-image: url("https://images.pexels.com/photos/388415/pexels-photo-388415.jpeg?cs=srgb&dl=pexels-jahoo-clouseau-388415.jpg&fm=jpg");
+    background-position: 0px -1000px;
 }
 
 #contact_me {
@@ -110,6 +134,7 @@ ul {
     border-radius: var(--borader-round);
     border-style: dotted;
     position: relative;
+    
     display: flex; 
     justify-content: flex-end;
     
@@ -128,12 +153,42 @@ ul {
     border-style: solid;
     height: 250px;
     width: auto;
-    margin: 15px 50px 15px 5px;
+    margin: 15px 50px 15px 0px;
     background-image: url("https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
     background-size: cover;
     background-position: 0px -50px;
     background-color: transparent;
+    cursor: pointer;
+    position: relative;
 }
+
+
+/* Background images for small projects */
+
+#LED {
+    background-image: url(https://www.shutterstock.com/image-photo/some-led-lamps-blue-light-260nw-300543446.jpg);
+    background-size: cover;
+    background-position: 0px -80px;
+}
+
+#Cal {
+    background-image: url(https://media.istockphoto.com/id/941729686/photo/business-accounting-concept-business-man-using-calculator-with-computer-laptop-budget-and-loan.jpg?b=1&s=612x612&w=0&k=20&c=VetWm4XkuQz2NOMVy9mNNrIenXzhkFidfcxIWRoEFEk=);
+    background-size: cover;
+    background-position: 0px -170px;
+}
+
+#Past {
+    background-image: url(https://t3.ftcdn.net/jpg/00/49/69/66/360_F_49696671_C4x2IxqNOetcjF3o1a6zyaLG8sqGtcTw.jpg);
+    background-size: cover;
+    background-position: 0px -80px;
+}
+
+#Run {
+    background-image: url(https://media.istockphoto.com/id/466443000/photo/female-running.jpg?s=612x612&w=0&k=20&c=TQ-l1bZmuoUIjxNWZ7ez4ODwlRXlyIPKaC9Cain8Nhk=);
+    background-size: cover;
+    background-position: 0px -160px;
+}
+
 
 /* Media */
 
