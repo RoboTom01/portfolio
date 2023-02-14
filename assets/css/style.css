@@ -1,7 +1,7 @@
 :root {
     --main-color: #B5D5C5;
     --borader-round: 10%;
-    --minimum-size: 720px;
+    --minimum-size: 1095px;
 
 }
 
@@ -88,7 +88,7 @@ ul {
     margin: 5px;
     width: fit-content;
     height: auto;
-    background-color: antiquewhite;
+    background-color: rgb(252, 247, 241);
 }
 
 .project_small {
@@ -118,7 +118,7 @@ ul {
 #bio {
     min-height: 300px;
 }
-
+ 
 #background_field {
     height: 400px;
     background-image: url("https://images.pexels.com/photos/388415/pexels-photo-388415.jpeg?cs=srgb&dl=pexels-jahoo-clouseau-388415.jpg&fm=jpg");
