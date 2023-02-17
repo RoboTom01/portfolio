@@ -8,6 +8,10 @@
     <title>website</title>
 </head>
 
+
+
+
+
 <body>
     
 
@@ -23,7 +27,7 @@
           </li>
           <li class="nav_topic">
             <button class="nav_button">
-            <a href="#projects">Projects</a>
+            <a href="#project_big">Projects</a>
             </button>
           </li>
           <li class="nav_topic">
@@ -38,16 +42,18 @@
   <!--pic/background-->
     <div>
       <div id="background_field">
-        <!-- <img  id="main_image"  src="../portfolio/assets/images/field.jpg" alt="place-holder"> -->
       </div>
     </div>
 
   <!-- Columns -->
-      <!-- LEFT -->
+      
  
     <!--About Me, pic & name-->
     <div class="row">
-      <div class="column-left">
+
+        <!-- LEFT -->
+
+      <div class="column_left">
           <h1 id="my_name">Thomas Waite</h1>
 
           <div>
@@ -58,12 +64,17 @@
 
         <!-- CENTER -->
 
-      <div class="column-center"> 
+      <div class="column_center"> 
         <div id="about_me"></div>
         <div>
-          <p id="bio">
-            BIO
-          </p>
+          <h3>BIO:</h3>
+          <div id="bio">
+            <p class="italic">Hi, I'm Thomas.</p>
+            <p>I was born and raised in Utah and am jumping into the world of web development.</p>
+            <p>I enjoy golf, skiing, gaming, and spending time with my dog.</p>
+            <p>Before coding, I obtained an associate's degree in accounting.</p>
+            <p>My hope is to obtain a solid career in web development, that gives me opportunities to grow and learn as the industry and field does.</p>
+          </div>
         </div>
 
       <!--Projects-->
@@ -71,7 +82,7 @@
         <!--1st large project-->
         <div id="project_big">
           
-          <a class="project-text link" href="https://newguyengithub.github.io/Recovery-Radar/">Recovery Radar</a>
+          <a class="project_text link" href="https://newguyengithub.github.io/Recovery-Radar/">Recovery Radar</a>
           <!-- <span class="link"></span> -->
           
         </div>
@@ -79,16 +90,16 @@
           <div>
             <ul id="projects">
               <li id="LED" class="project_small">
-                  <a class="project-text link" href="">LED Wall</a>
+                  <a class="project_text link" href="">LED Wall</a>
               </li>
               <li id="Cal" class="project_small">
-                  <a class="project-text link" href="">Calculator</a>
+                  <a class="project_text link" href="">Calculator</a>
               </li>
               <li id="Past" class="project_small">
-                  <a class="project-text link" href="">Pastel Puzzles</a>
+                  <a class="project_text link" href="">Pastel Puzzles</a>
               </li>
               <li id="Run" class="project_small">
-                  <a class="project-text link" href="">Run Buddy</a>
+                  <a class="project_text link" href="">Run Buddy</a>
               </li> 
             </ul>
           </div>
@@ -101,7 +112,7 @@
 
         <!-- RIGHT -->
 
-      <div class="column-right">
+      <div class="column_right">
         <div>
           <img id="profile_pic" src="../portfolio/assets/images/profilepic.jpg" alt="me">
         </div>
@@ -110,12 +121,15 @@
 
 
     <!--Footer/contact me-->
-    <footer>
-      <h2>Contact Me</h2>
-        <ul id="contact_me">
-          <li>Email: #</li>
-          <li>LinkedIn: #</li>
+  <footer>
+    <div class="row">
+      <h2 id="contact_me" class="column_left">Contact Me</h2>
+        <ul class="column_center">
+          <li><a class="href_special" href="mailto:thomasmwaite01@gmail.com"> 📧 Send me an email!</a></li>
+          <li><a class="href_special" href="https://www.linkedin.com/in/thomas-m-waite-7b6594121"> 🤝 Find me on LinkedIn!</a></li>
         </ul>
-    </footer>
+      <div class="column_right"></div>
+    </div>
+  </footer>
 
 </body>
