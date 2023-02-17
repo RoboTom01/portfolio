@@ -97,14 +97,15 @@ ul {
     margin-right: 50px;
 }
 
-/* .left_margin {
-    margin-left: 50px;
-} */
+.contact_list_item {
+    padding-top: 10px;
+}
 
 .href_special {
     font-size: 17px;
     color: blue;
-    padding-left: 15%;
+    padding-left: 10%;
+    
 }
 
 .link {
