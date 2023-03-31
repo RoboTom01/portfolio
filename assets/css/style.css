@@ -245,9 +245,9 @@ ul {
     min-width: 658px;
     /* max-width: 1500px; */
     margin: 15px 50px 15px 0px;
-    background-image: url("https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); 
+    background-image: url("https://thumbs.dreamstime.com/b/grand-bazaar-istanbul-turkey-22466729.jpg"); 
     background-size: cover;
-    background-position: 0px -170px;
+    background-position: 0px 0px;
     background-color: transparent;
     cursor: pointer;
     position: relative;
@@ -256,8 +256,8 @@ ul {
 
 /* Background images for small projects */
 
-#LED {
-    background-image: url(https://www.shutterstock.com/image-photo/some-led-lamps-blue-light-260nw-300543446.jpg);
+#Rec {
+    background-image: url(https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-size: cover;
     background-position: 0px -80px;
 }
